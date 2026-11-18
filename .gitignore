@@ -1,0 +1,19 @@
+# Ignore everything in data subdirectories except .gitkeep files
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Ignore specific folder types
+**/.ipynb_checkpoints/ 
+
+# Ignore specific file types
+*.nc                      
+*.h5
+*.pkl
+*.sh
+*.parquet
